@@ -3,9 +3,8 @@ import "dotenv/config";
 import cors from "cors";
 import express from "express";
 import { notFound } from "./controllers/notFoundController";
-import testRoutes from "./routes/exampleRoutes";
-import { helloMiddleware } from "./middleware/exampleMiddleware";
-import mongoose from "mongoose";
+import shopRoutes from "./routes/shopRoutes"; 
+import mongoose from "mongoose";  
 
 // Variables
 const app = express();
@@ -16,12 +15,12 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/api", helloMiddleware, testRoutes);
+app.use("/api/vehicles", shopRoutes);
 app.all("*", notFound);
 
 // Database connection
 try {
-  await mongoose.connect(process.env.MONGO_URI!);
+  await mongoose.connect(process.env.MONGO_URI_LIVE!);
   console.log("Database connection OK");
 } catch (err) {
   console.error(err);

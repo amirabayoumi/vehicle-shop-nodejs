@@ -1,0 +1,63 @@
+[
+  {
+    "type": "auto",
+    "merk": "Toyota",
+    "model": "Corolla",
+    "bouwjaar": 2020,
+    "prijs": 18000
+  },
+  {
+    "type": "auto",
+    "merk": "BMW",
+    "model": "3 Serie",
+    "bouwjaar": 2021,
+    "prijs": 35000
+  },
+  {
+    "type": "auto",
+    "merk": "Mercedes",
+    "model": "C-Klasse",
+    "bouwjaar": 2019,
+    "prijs": 28000
+  },
+  {
+    "type": "moto",
+    "merk": "Yamaha",
+    "model": "MT-07",
+    "bouwjaar": 2021,
+    "prijs": 7500,
+    "cilinderinhoud": 689
+  },
+  {
+    "type": "moto",
+    "merk": "Hond",
+    "model": "CB125R",
+    "bouwjaar": 2024,
+    "prijs": 4750,
+    "cilinderinhoud": 125
+  },
+  {
+    "type": "moto",
+    "merk": "Honda",
+    "model": "CB500F",
+    "bouwjaar": 2020,
+    "prijs": 6500,
+    "cilinderinhoud": 471
+  },
+  {
+    "type": "moto",
+    "merk": "Ducati",
+    "model": "Monster 821",
+    "bouwjaar": 2021,
+    "prijs": 12000,
+    "cilinderinhoud": 821
+  },
+  {
+    "type": "moto",
+    "merk": "Harley-Davidson",
+    "model": "Iron 883",
+    "bouwjaar": 2018,
+    "prijs": 9500,
+    "cilinderinhoud": 883
+  }
+]
